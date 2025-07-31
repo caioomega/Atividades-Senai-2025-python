@@ -1,0 +1,23 @@
+lista = [4, 5, 3, 5]
+print (f"Lista Inicial: {lista}")
+lista.append(2)
+print(f"Acresente o 2 a lista: {lista}")
+lista.insert(2, -3)
+print(f"Acrescenta o -3 na posição 2: {lista}")
+lista.remove(4)
+print(F"Remove o 4 da lista: {lista}")
+lista.sort()
+print(f"Ordena a lista em ordem cresccente: {lista}")
+lista.reverse()
+print(f"Coloca  alista em ordem decrescente: {lista}")
+qnt = lista.count(5)
+print(f"count conta quantas vezes aprarece na lista: {lista}")
+exc = lista.pop()
+print(f"pop remove último item da lista: {lista}")
+print(f"Item removido da lista: {exc}")
+del lista[2]
+print(f"del exclui o item da lista de acordo com a posição: {lista}")
+del lista[2:5]
+print (f"Deleta um numero de uma posição ate a outra: {lista}")
+lista.clear()
+print(f"limpa a lista: {lista}")

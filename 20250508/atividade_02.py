@@ -1,0 +1,5 @@
+nome = str("caio")
+idade = int(16)
+estudante = bool(True)
+altura = float(1.73) 
+print("nome: ", nome, "- idade: ", idade, "- estudante: ", estudante, "- altura (M): ", altura, sep=",")
